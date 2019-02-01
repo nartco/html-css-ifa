@@ -1,0 +1,34 @@
+.green{
+    background-color: green;
+    float: left;
+    padding: 120px;
+    position: relative;
+}
+.purple{
+    background-color: purple;
+    padding: 120px;
+
+    float: right;
+
+}
+.orange{
+    background-color: orange;
+    padding: 120px;
+    float: left;
+    position: relative;
+    top: 50px;
+}
+.boo{
+    background-color: blue;
+    padding: 120px;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+.cyan{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 70px;
+    width: 800px;
+}
