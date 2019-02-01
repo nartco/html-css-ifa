@@ -1,0 +1,28 @@
+.green{
+    background-color: green;
+    margin-top: 400px;
+    padding: 150px;
+    margin-left: 470px;
+    position: absolute;
+}
+.purple{
+    background-color: purple;
+    padding: 120px;
+
+}
+.orange{
+    background-color: orange;
+    padding: 62.5px;
+    position: absolute;
+    left: 800px;
+    top: 900px;
+}
+.cyan{
+    background-color: aquamarine;
+    height: 100px;
+    top: 30%;
+}
+div{
+    padding: auto;
+    margin: auto;
+}
