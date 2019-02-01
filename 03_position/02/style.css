@@ -1,0 +1,18 @@
+.green{
+    background-color: green;
+    padding: 150px;
+    width: 800px;
+    margin: auto;
+    padding: auto;
+}
+.purple{
+    background-color: purple;
+    padding: 120px;
+}
+.orange{
+    background-color: orange;
+    padding: 62.5px;
+    position: absolute;
+    right: 950px;
+    top: 600px;
+}
