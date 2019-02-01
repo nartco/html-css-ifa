@@ -1,0 +1,54 @@
+body{
+    background: #F39001;
+    color: #006AB2;
+
+}
+/* ============================ HEADER ============================ */
+header{
+    height: 350px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header_left{
+    float: left;
+    text-align: left;
+}
+
+#header_right{
+    float: right;
+}
+#header_right img{
+    box-shadow: 3px 4px 3px black;
+    height: 32vh;
+    width: 23vh;
+}
+#header_right h1{
+    display: none;
+}
+article{
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* ============================ Puces ============================ */
+
+li{
+    list-style: none;
+    padding-right: 4vh;
+}
+
+/* ============================ Form ============================ */
+
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+label{
+    font-size: 12px;
+    margin: 0;
+    display: block;
+}
+textarea {
+	resize: none;
+}

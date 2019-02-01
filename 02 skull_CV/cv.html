@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="script/style.css">
+    <meta name="description" content="CV thuillier">
     <title>CV</title>
 </head>
 <body>
     <header>
-        <section id="header_left">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Philip_k_dick_drawing.jpg/220px-Philip_k_dick_drawing.jpg" alt="photo de philipe k. Dick">
-            <h1>Philipe k. Dick</h1>
-            <h2>Redacteur</h2>
-        </section>
         <section id="header_right">
+            <img src="https://media.biblys.fr/book/22/52722.jpg" alt="photo de philipe k. Dick">
+            <h1></h1>
+        </section>
+        <section id="header_left">
+                <h1>Philipe k. Dick</h1>
+                <h2>Redacteur</h2>
             <address>
-                <a href="mailto:philipe@gmail">email</a>
+                <a href="mailto:philipe@gmail">email</a><br>
                 Adresse: 159 avenue de strasbroug,<br> 54000, Nancy<br>
                 Tel: 03294029234
             </address>
@@ -74,6 +77,60 @@
             <li>Musee, exposition, egypte antique</li>
             <li>collections de Ponchos</li>
         </ul>
+    </article>
+        <!-- ======================= Contact ======================= -->
+    <article id="contact">
+        <h1>Conctacez moi !</h1>
+        <form action="" method="get" class="contact_form">
+                <div class="contact_form">
+                    <label for="name">nom: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="contact_form">
+                    <label for="prenom">Prenom: </label>
+                    <input type="text" name="prenom" id="prenom" required>
+                      </div>
+                <div class="contact_form">
+                    <label for="email">email: </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <p>couleur:</p>
+                <div>
+                    <input type="radio" id="blue_c" name="color" value="blue">
+                    <label for="blue">bleu</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="pink_d" name="color" value="pink">
+                    <label for="pink">rose</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="grey_c" name="color" value="grey">
+                    <label for="grey">gris</label>
+                </div>
+                <div  class="concat_form">
+                    <label for="subject">sujet:</label>
+                    <input type="text"  id="subject" name="subject">
+                </div>
+                <div class="contact_form">
+                    <label for="age">tranche d'age:</label>
+                    <select id="age">
+                        <option value="under19">  &#60;	19</option>
+                        <option value="between18_25">19 a 25</option>
+                        <option value="between25_50">25 a 50</option>
+                        <option value="over50">&#60; 50</option>
+                    </select>
+                </div>
+                <div class="contact_form">
+                    <label for="message">message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="33" maxlength="200"></textarea>
+                </div>
+                <div class="contact_form">
+                    <input type="submit" value="envoyer">
+                </div>
+              </form>
+
     </article>
 </body>
 </html>
