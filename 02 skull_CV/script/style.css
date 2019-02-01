@@ -52,3 +52,9 @@ label{
 textarea {
 	resize: none;
 }
+
+/* ============================ Article ============================ */
+
+#formation{
+    text-align: center;
+}

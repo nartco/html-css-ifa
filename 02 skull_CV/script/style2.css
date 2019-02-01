@@ -1,0 +1,253 @@
+body{
+    overflow-x: hidden;
+  }
+  #logo{
+    width: 150px;
+    height: 150px;
+  }
+  
+  header h1{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header, body, html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+  
+  header{
+  
+    background: url("https://image.noelshack.com/fichiers/2017/52/6/1514666564-startup-593327-1920.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+  }
+  
+  .wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .content{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 10px black
+  }
+  
+  #readm{
+    color: white;
+  }
+  
+  
+  #readm:hover{
+    color:pink;
+  }
+  
+  main{
+    max-width: 650px;
+    margin: 80px auto;
+    background-color:
+  }
+  
+  .miniature{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  #coming{
+    width: 300px;
+    height: 171px;
+  }
+  
+  .categorie{
+    text-align: center;
+  }
+  
+  .categorie h1{
+    text-shadow: 1px 1px 10px black;
+    color: white;
+  }
+  
+  .categorietitle{
+    padding-bottom: 15px;
+  }
+  
+  .banK{
+    position: relative;
+    top: -20px;
+    width:1000px;
+    height:3px;
+    
+  }
+  
+  #contact{
+    grid-template-areas: "left right";
+    padding-top: 50px;
+  }
+  .col-md-6 a img:hover{
+    border: 2px solid white;
+  }
+  
+  
+  #linkedin::before{
+    content: "\f08c";
+    font-family: FontAwesome;
+    padding-right: 0.5em;
+    color: rgb(0,119,181);
+  }
+  #linkedin{
+    color: rgb(0,119,181)
+  }
+  #facebook::before{
+    content: "\f082";
+    font-family: FontAwesome;
+    padding-right: 0.5em;
+    color: rgb(59,87,157);
+  }
+  #facebook{
+    color: rgb(59,87,157);
+  }
+  
+  #github::before{
+    content:"\f09b";
+    font-family: FontAwesome;
+    padding-right: 0.5em;
+    color: black;
+  }
+  #github{
+    color: black;
+  }
+  #fcc::before{
+   content:"\f2c5";
+   font-family: FontAwesome;
+   padding-right: 0.5em;
+   color: rgb(0,100,0);
+  }
+  
+  #fcc{
+    color: rgb(0,100,0);
+  }
+  
+  #mail::before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    padding-right: 0.5em;
+    color: black;
+  }
+  #mail{
+    text-shadow: 0px 1px black;
+    color: black;
+  }
+  #phone::before{
+    content: "\f095";
+    font-family: FontAwesome;
+    padding-right: 0.5em;
+    color: black;
+  }
+  #phone{
+    color: black;
+  }
+  #contact h1{
+    margin-bottom: 10px;
+  }
+  
+  #contact-li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+  #contact-li a:hover{
+    cursor: pointer;  
+  }
+  
+  #contact-li li{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    border: 6px solid rgb(255,255,255);
+    padding-bottom: 3px;
+    margin-top: 20px;
+    margin-right: 30px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 1px black;
+    
+  }
+  #contact-li{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #contact-li li:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    border-color: black;
+    cursor: pointer;
+  }
+  
+  
+  #sub{
+    margin-top: 15px;
+    position: relative;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 3px;
+    color: #cccccc;
+    background-color: white;
+    border-color: #ccccccc;
+  }
+  
+  #sub:hover{
+    color: #00ccff;
+    border-color: #00ccff;
+  }
+  #sub:visited{
+    color: #003d4d;
+    border-color: #003d4d;
+  }
+  
+  
+  
+  #droite{
+    position: relative;
+    bottom: -10px;
+    float: right;
+  }
+  
+  
+  
+  #gauche{
+    position: relative;
+    float: left;
+    bottom: -20px;
+  }
+  
+  .btn{
+    cursor:  pointer;
+  }
+  footer{
+    background: white;
+    height: 45px;
+  }
+  
+  /* responsive-modif */
+  @media (max-width: 640px){
+    
+    
+    .wrapper{
+    display: table;
+    width: 90%;
+    height: 90%;
+   }   
+      footer{
+    background: white;
+    height: 35px;
+  }
+  
+  }
