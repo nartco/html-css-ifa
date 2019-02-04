@@ -3,6 +3,7 @@
     color: #71FF00
    }
    body {
+    height: 100vh;
      margin: 0;
    }
    #main {
