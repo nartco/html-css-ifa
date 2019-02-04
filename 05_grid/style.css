@@ -1,0 +1,63 @@
+.container{
+    background: black;
+    height: 95vh;
+    display: grid;
+    grid-template-areas: 
+                "W1 W2 W2 W2 W2 W2 W2 W2 W3 W3 W3 W3 W3 W3 W3 W4 Y1"
+                "head main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+                ". main main main main main main main main main main main main main main main main"
+}
+div{
+    border: 1vw solid black;
+}
+.yellow{
+    background: yellow;
+}
+.red{
+    background: red;
+}
+.white{
+    background: white;
+}
+.black{
+    background: black;
+}
+.blue{
+     background: blue;
+}
+
+.W1{
+    grid-area: W1;
+}
+.W2{
+    grid-area: W2;
+}
+.W3{
+    grid-area: W3;
+}
+.W4{
+    grid-area: W4;
+}
+.Y1{
+    grid-area: Y1;
+}
