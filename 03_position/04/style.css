@@ -1,34 +1,44 @@
 .green{
-    background-color: green;
+    background-color: green;   
+    padding: 156.5px;
     float: left;
-    padding: 120px;
-    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-left: 60px;
+    margin-top: 60px;
 }
 .purple{
     background-color: purple;
-    padding: 120px;
-
-    float: right;
+    padding: 156.5px;
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin-left: 60px;
+    margin-top: 60px;
 
 }
 .orange{
     background-color: orange;
-    padding: 120px;
+    padding: 156.5px;
+    height: 15px;
+    width: 15px;
     float: left;
-    position: relative;
-    top: 50px;
+    margin-left: 60px;
+    margin-top: 60px;
 }
 .boo{
     background-color: blue;
-    padding: 120px;
-    float: right;
-    position: relative;
-    top: 50px;
+    padding: 156.5px;
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin-left: 60px;
+    margin-top: 60px;
+    
 }
 .cyan{
     background-color: aquamarine;
-    box-sizing: border-box;
-    position: absolute;
-    padding: 70px;
-    width: 800px;
+    width: 850px;
+    height: 850px;
+    z-index: 4;
 }

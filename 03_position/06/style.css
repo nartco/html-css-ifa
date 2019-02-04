@@ -1,0 +1,46 @@
+.cyan
+{
+    padding: 20px;
+    width: 450px;
+    height: 400px;
+    background: cyan;
+}
+.vert
+{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+}
+.bleue
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: left;
+ 
+}
+.orange
+{
+    background-color: orange;
+    width: 450px;
+    height: 100px;
+    float: left;
+}
+
+.gris
+{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    float: right;
+
+}
+.jaune
+{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
