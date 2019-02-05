@@ -1,43 +1,37 @@
+
 .container{
-    background: black;
     height: 95vh;
     display: grid;
+
     grid-template-areas: 
-                "W1 W2 W2 W2 W2 W2 W2 W2 W3 W3 W3 W3 W3 W3 W3 W4 Y1"
-                "head main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
-                ". main main main main main main main main main main main main main main main main"
+                    'W1  W2  W2  W2  W2  W2  W2  W2  W3  W3  W3  W3  W3  W3  W3  W3  W4  Y1'
+                    'W1  B1  B1  B1  B1  B1  B1  B1  W5  W5  W5  B2  B2  B2  B2  B2  W4  Y1'
+                    'W1  B1  B1  B1  B1  B1  B1  B1  W5  W5  W5  B2  B2  B2  B2  B2  W4  Y1'
+                    'BL1  W6  W6  BL2  W7  W7  W7  W8  Y2  Y2  Y2  R1  R1  R1  R1  R2  W4  Y1'
+                    'BL1  W6  W6  BL2  W7  W7  W7  W8  Y2  Y2  Y2  R1  R1  R1  R1  R2  W4  Y1'
+                    'BL1  W6  W6  BL2  W7  W7  W7  W8  Y2  Y2  Y2  R1  R1  R1  R1  R2  W4  Y1'
+                    'BL1  W6  W6  BL2  W7  W7  W7  W8  Y2  Y2  Y2  R1  R1  R1  R1  R2  W4  Y1'
+                    'BL1  W6  W6  BL2  Y3  R3  R3  R3  B3  B3  B3  W9  W9  W9  W9  W10 BL3  BL3'
+                    'BL1  W6  W6  BL2  Y3  R3  R3  R3  B3  B3  B3  W9  W9  W9  W9  W10 BL3  BL3'
+                    'W11 R4  R4  BL4  Y4  W12 W12 W12 W12 W12 W13 W13 W13 W13 B4  Y5  W14 W14'
+                    'W11 R4  R4  BL4  Y4  W12 W12 W12 W12 W12 W13 W13 W13 W13 B4  Y5  W14 W14'
+                    'W11 R4  R4  BL4  Y4  W12 W12 W12 W12 W12 W13 W13 W13 W13 B4  Y5  W14 W14'
+                    'W11 R4  R4  BL4  Y4  R5  R5  R5  BL5  BL5  BL5  BL5  BL5  BL5  W15 W15 W15 W15'
+                    'W16 W16 W16 W16 Y4  R5  R5  R5  BL5  BL5  BL5  BL5  BL5  BL5  W15 W15 W15 W15'
+	;
 }
 div{
-    border: 1vw solid black;
+    border: 5px solid black;
 }
 .yellow{
-    background: yellow;
+    background: yelloW;
 }
 .red{
     background: red;
 }
-.white{
-    background: white;
+.White{
+    background: White;
+    z-index: 4;
 }
 .black{
     background: black;
@@ -45,7 +39,7 @@ div{
 .blue{
      background: blue;
 }
-
+/* ============================================ WHITE ===========================================*/
 .W1{
     grid-area: W1;
 }
@@ -58,6 +52,101 @@ div{
 .W4{
     grid-area: W4;
 }
+.W5{
+    grid-area: W5;
+}
+.W6{
+    grid-area: W6;
+}
+.W7{
+    grid-area: W7;
+}
+.W8{
+    grid-area: W8;
+}
+.W9{
+    grid-area: W9;
+}
+.W10{
+    grid-area: W10;
+}
+.W11{
+    grid-area: W11;
+}
+.W12{
+    grid-area: W12;
+}
+.W13{
+    grid-area: W13;
+}
+.W14{
+    grid-area: W14;
+}
+.W15{
+    grid-area: W15;
+}
+.W16{
+    grid-area: W16;
+}
+
+/* ============================================ YELLOW ===========================================*/
 .Y1{
     grid-area: Y1;
+}
+.Y2{
+    grid-area: Y2;
+}
+.Y3{
+    grid-area: Y3;
+}
+.Y4{
+    grid-area: Y4;
+}
+.Y5{
+    grid-area: Y5;
+}
+/* ============================================ BLUE ===========================================*/
+.B1{
+    grid-area: B1;
+}
+.B2{
+    grid-area: B2;
+}
+.B3{
+    grid-area: B3;
+}
+.B4{
+    grid-area: B4;
+}
+/* ============================================ BLACK ===========================================*/
+.BL1{
+    grid-area: BL1;
+}
+.BL2{
+    grid-area: BL2;
+}
+.BL3{
+    grid-area: BL3;
+}
+.BL4{
+    grid-area: BL4;
+}
+.BL5{
+    grid-area: BL5;
+}
+/* ============================================ RED ===========================================*/
+.R1{
+    grid-area: R1;
+}
+.R2{
+    grid-area: R2;
+}
+.R3{
+    grid-area: R3;
+}
+.R4{
+    grid-area: R4;
+}
+.R5{
+    grid-area: R5;
 }
