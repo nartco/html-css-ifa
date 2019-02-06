@@ -1,0 +1,43 @@
+.contain
+{
+	display: inline-block;
+	padding: 45px;
+	background-color: pink;
+}
+
+
+
+.rond{
+    display: inline-block;
+	position: relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 45px;
+	border: 1px solid black;
+	animation: load;
+	animation-iteration-count: infinite;
+}
+.one{
+    animation-delay: 0s;
+    animation-duration: 2s;
+}
+.two{
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+.three{
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+@keyframes load
+{
+	0%
+	{
+		background-color: red;
+	}
+
+	100%
+	{
+		background-color: green;
+	}
+}

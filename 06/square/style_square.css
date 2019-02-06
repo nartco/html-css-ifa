@@ -1,0 +1,25 @@
+.square
+{
+	height: 100px;
+	width: 100px;
+	margin: 50px;
+	background-color: pink;
+	animation-name: turn;
+	animation-duration: 3s;
+	animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes turn
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(240deg);
+		background-color: blue;
+	}
+}
