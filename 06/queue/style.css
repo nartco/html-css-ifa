@@ -1,47 +1,51 @@
 .contain
 {
 	display: inline-block;
-	padding: 450px;
+    padding: 450px;
+    width:700px;
 	background-color: pink;
 }
 .square{
-	height: 120px;
-	width: 120px;
+	height: 60px;
+    width: 60px;
     display: inline-block;
-    animation-name: vogue;
-    animation-iteration-count: infinite;
+    float: left;
     position: relative;
     animation-duration: 3s;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+
 }
 .S1{
     background: red;
+    animation: rotate 7s 6s linear infinite both;
+
 }
 .S2{
     background: yellow;
+    animation: rotate 7s 5s linear infinite both;
 }
 .S3{
     background: green;
+    animation: rotate 7s 4s linear infinite both;
 }
 .S4{
     background: blue;
+    animation: rotate 7s 3s linear infinite both;
 }
 .S5{
     background: purple;
+    animation: rotate 7s 2s linear infinite both;
 }
 .S6{
     background: black;
+    animation: rotate 7s 1s linear infinite both;
 }
 
-@keyframes vogue{
-    0% {
-        left: 10px;
-      }
-      50% {
-        left: 400px;
-      }
-      100% {
-        left: 10px;
-      }
+@keyframes rotate {
+   0%   {left:-380px; top: -300px;}
+   25%   {left:990px; top: -300px; transform : rotate(360deg);}
+   50%   {left:990px; top:440px; transform : rotate(0deg);}
+   75%   {left:-380px; top:440px; transform : rotate(360deg);}
+  100%   {left:-380px ;top: -300px;  transform : rotate(0deg);}
 }
+
+
