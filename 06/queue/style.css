@@ -8,8 +8,8 @@
 .square{
 	height: 60px;
     width: 60px;
-    display: inline-block;
     float: left;
+    display: block;
     position: relative;
     animation-duration: 3s;
 
@@ -41,11 +41,12 @@
 }
 
 @keyframes rotate {
-   0%   {left:-380px; top: -300px;}
-   25%   {left:990px; top: -300px; transform : rotate(360deg);}
-   50%   {left:990px; top:440px; transform : rotate(0deg);}
-   75%   {left:-380px; top:440px; transform : rotate(360deg);}
-  100%   {left:-380px ;top: -300px;  transform : rotate(0deg);}
-}
-
-
+    0%   {left:-420px; top: -300px; transform : rotate(360deg);}
+    25%   {left:700px; top: -300px;}
+    50%   {left:700px; top:440px;}
+    75%   {left:-420px; top:440px; }
+   100%   {left:-420px ;top: -300px;}
+ }
+ 
+ 
+ 

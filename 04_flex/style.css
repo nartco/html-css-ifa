@@ -25,15 +25,12 @@
        background: #F35CFF;
        flex: 0 0 20vw;
    }
-   article div{
+   article .txt{
        display: flex;
-   }
-   article .div{
-
    }
    header{
      background: #EC00FF;
-     height: 20vh;
+
    }
    footer{
     background: #78197F;
