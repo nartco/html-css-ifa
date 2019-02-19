@@ -1,6 +1,39 @@
 body{
     min-height: 320px;
 }
+
+header{
+    height: 20%;
+}
+header h1{
+    font-size: 30px;
+}
+#header_right{
+    margin-top: -20px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.temp_header{
+    display: inline-block;
+    position: relative;
+    bottom: 9vw;
+    font-size: 20px;
+    margin-left: 6px;
+}
+header img{
+    display: inline-block;
+    width: 20vw;
+}
+#header_left{
+    position: relative;
+    bottom: 30px;
+    display: inline-block;
+    padding-left: 60%; 
+    margin-top: -50%;
+    font-size: 14px;
+    margin-bottom: -190px;
+}
+
 @media screen and (max-width: 768px){
     body{
         grid-template-areas: 
@@ -15,39 +48,12 @@ body{
         "T8";
     }
     /* ===================== header under 768 ================= */
-    header{
-        height: 20%;
-    }
-    header h1{
-        font-size: 30px;
-    }
-    #header_right{
-        margin-top: -20px;
-        padding-left: 5px;
-        font-size: 12px;
-    }
-    .temp_header{
-        display: inline-block;
-        position: relative;
-        bottom: 30px;
-        font-size: 20px;
-        margin-left: 6px;
-    }
-    header img{
-        display: inline-block;
-        width: 20vw;
-    }
-    #header_left{
-        position: relative;
-        bottom: 30px;
-        display: inline-block;
-        padding-left: 60%; 
-        margin-top: -50%;
-        font-size: 14px;
-        margin-bottom: -190px;
-    }
+
 
     /* ===================== body under 768 ================= */
+    .T1{
+        border-top: 1px solid black; 
+    }
     .day{
         display: inline-block;
         position: relative;
@@ -98,35 +104,17 @@ body{
         padding-left: 12vw;
     }
 }
-    .T1{
-        border-top: 1px solid black; 
+@media screen and (min-width: 768px){
+    .under_768{
+        display: none;
     }
+    .contain
+	{
+		display: inline-grid;
+		column-count: 1;
+		width: 12%;
+	}
+    
+}
 
-    header{
-        grid-area: head;
-    }
-    .T1{
-        grid-area: T1;
-    }
-    .T2{
-        grid-area: T2;
-    }
-    .T3{
-        grid-area: T3;
-    }
-    .T4{
-        grid-area: T4;
-    }
-    .T5{
-        grid-area: T5;
-    }
-    .T6{
-        grid-area: T6;
-    }
-    .T7{
-        grid-area: T7;
-    }
-    .T8{
-        grid-area: T8;
-    }
 
