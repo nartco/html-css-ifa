@@ -1,0 +1,48 @@
+.cyan
+{
+    box-sizing: border-box;
+    position: absolute;
+    padding: 30px;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+}
+
+.green
+{
+    position: absolute;
+    box-sizing: border-box;
+    background-color: green;
+    height: 40%;
+    width: 40%;
+}
+
+.purple
+{
+    position: absolute;
+    right: 20px;
+    box-sizing: border-box;
+    background-color: purple;
+    height: 40%;
+    width: 40%;
+}
+
+.orange
+{
+    position: absolute;
+    bottom: 20px;
+    box-sizing: border-box;
+    background-color: orange;
+    height: 40%;
+    width: 40%;
+}
+
+.boo{
+    position: absolute;
+    bottom:20px;
+    right: 20px;
+    box-sizing: border-box;
+    background-color: pink;
+    height: 40%;
+    width: 40%;
+}

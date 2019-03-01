@@ -1,0 +1,38 @@
+.cyan
+{
+    background-color: aqua;
+    height: 100px;
+    width: 600px;
+}
+
+.green
+{
+    position: absolute;
+    top: 250px; 
+    left: 200px;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.pink
+{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+
+}
+
+.red
+{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 450px;
+    top: 500px;
+    background-color: red;
+
+}

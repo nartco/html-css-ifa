@@ -1,0 +1,52 @@
+.cyan
+{
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+}
+
+.green
+{
+    position: relative;
+    top: -10px;
+    right: 10px;
+    box-sizing: border-box;
+    background-color: green;
+    height: 50%;
+    width: 50%;
+}
+
+.blue
+{
+    position: relative;
+    left: 180px;
+    bottom: 177px;
+    box-sizing: border-box;
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+}
+
+.orange
+{
+    position: relative;
+    bottom: 153px;
+    right: 10px;
+    box-sizing: border-box;
+    background-color: orange;
+    height: 50%;
+    width: 50%;
+}
+
+.boo
+{
+    position: relative;
+    bottom:320px;
+    left: 180px;
+    box-sizing: border-box;
+    background-color: pink;
+    height: 50%;
+    width: 50%;
+}
